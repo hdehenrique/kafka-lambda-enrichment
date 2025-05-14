@@ -1,0 +1,16 @@
+version: '1.0'
+
+aws-account-henrique-prd:
+  master:
+    LAMBDA_NAME: kafka-lambda-enrichment
+    LAMBDA_ENV: prd
+    MSK_SERVERS: parameter://prd/aws-henrique/parameterstore/kafka_bootstrap_servers
+    LOG_LEVEL: INFO
+    
+
+aws-account-henrique-hml:
+  hml:
+    LAMBDA_NAME: kafka-lambda-enrichment
+    LAMBDA_ENV: hml
+    MSK_SERVERS: parameter://hml/aws-henrique/parameterstore/kafka_bootstrap_servers
+    LOG_LEVEL: INFO

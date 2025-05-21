@@ -1,8 +1,8 @@
-# kafka-lambda-enrichment
+# kafka-lambda-enrichment AWS Lambda
 
 ## Visão Geral
 
-Este projeto implementa um pipeline de dados em Python para processamento de eventos em tempo real, integrando Apache Kafka, PostgreSQL e ScyllaDB. 
+Este projeto implementa um pipeline de dados em Python para processamento de eventos em tempo real, integrando AWS Lambda, Apache Kafka, PostgreSQL e ScyllaDB. 
 
 O objetivo é consumir eventos de um tópico Kafka, enriquecer os dados com informações de negócio provenientes do PostgreSQL, persistir o histórico no ScyllaDB e encaminhar os eventos processados para novos tópicos Kafka, garantindo rastreabilidade e resiliência.
 

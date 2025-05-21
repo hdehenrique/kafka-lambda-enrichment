@@ -1,4 +1,4 @@
-# kafka-lambda-enrichment AWS Lambda
+# AWS Lambda kafka-lambda-enrichment
 
 ## Visão Geral
 
